@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Hello from './components/Hello_class'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Hello name = "zyf" enthusiasmLevel = {3} />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root') as HTMLElement
 );
 
 // If you want to start measuring performance in your app, pass a function
