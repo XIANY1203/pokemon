@@ -1,0 +1,65 @@
+{
+  "1": {
+    "name": "断头钳",
+    "description": "用大钳子或剪刀等夹断对手进行攻击。只要命中就会一击濒死。",
+    "power": "0",
+    "coldingTime": "1",
+    "cost": "1",
+    "effect": "Attack",
+    "probability": "0"
+  },
+  "2": {
+    "name": "蟹钳锤",
+    "description": "用大钳子敲打对手进行攻击。容易击中要害。",
+    "power": "100",
+    "coldingTime": "3",
+    "cost": "3",
+    "effect": "Attack",
+    "probability": "90"
+  },
+  "3": {
+    "name": "舍身冲撞",
+    "description": "拼命地猛撞向对手进行攻击。自己也会受到不小的伤害。",
+    "power": "120",
+    "coldingTime": "3",
+    "cost": "3",
+    "effect": "Attack",
+    "probability": "100"
+  },
+  "4": {
+    "name": "水炮",
+    "description": "向对手猛烈地喷射大量水流进行攻击。",
+    "power": "110",
+    "coldingTime": "1",
+    "cost": "1",
+    "effect": "Attack",
+    "probability": "80"
+  },
+  "5": {
+    "name": "纹理",
+    "description": "将自己的属性转换成和已学会的招式中第一个招式相同的属性。",
+    "power": "0",
+    "coldingTime": "2",
+    "cost": "2",
+    "effect": "Attack",
+    "probability": "0"
+  },
+  "6": {
+    "name": "愤怒门牙",
+    "description": "用锋利的门牙猛烈地咬住对手进行攻击。对手的ＨＰ减半。",
+    "power": "0",
+    "coldingTime": "2",
+    "cost": "2",
+    "effect": "Attack",
+    "probability": "0"
+  },
+  "7": {
+    "name": "乱抓",
+    "description": "用爪子或镰刀等抓对手进行攻击。连续攻击２～５次。",
+    "power": "18",
+    "coldingTime": "2",
+    "cost": "2",
+    "effect": "Bleed",
+    "probability": "80"
+  }
+}

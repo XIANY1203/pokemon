@@ -1,0 +1,92 @@
+{
+  "1": {
+    "name": "高速星星",
+    "description": "发射星形的光攻击对手。攻击必定会命中。",
+    "power": "60",
+    "coldingTime": "1",
+    "cost": "1",
+    "effect": "Attack",
+    "probability": "0"
+  },
+  "2": {
+    "name": "剑舞",
+    "description": "激烈地跳起战舞提高气势。大幅提高自己的攻击。",
+    "power": "0",
+    "coldingTime": "3",
+    "cost": "3",
+    "effect": "Strengthen",
+    "probability": "0"
+  },
+  "3": {
+    "name": "破坏光线",
+    "description": "向对手发射强烈的光线进行攻击。下一回合自己将无法动弹。",
+    "power": "150",
+    "coldingTime": "1",
+    "cost": "1",
+    "effect": "Attack",
+    "probability": "90"
+  },
+  "4": {
+    "name": "替身",
+    "description": "削减少许自己的ＨＰ，制造分身。分身将成为自己的替身。",
+    "power": "0",
+    "coldingTime": "1",
+    "cost": "1",
+    "effect": "Attack",
+    "probability": "0"
+  },
+  "5": {
+    "name": "影子分身",
+    "description": "通过快速移动来制造分身，扰乱对手，从而提高闪避率。",
+    "power": "0",
+    "coldingTime": "1",
+    "cost": "1",
+    "effect": "Strengthen",
+    "probability": "0"
+  },
+  "6": {
+    "name": "缠绕",
+    "description": "用触手或青藤等缠绕进行攻击。有时会降低对手的速度。",
+    "power": "10",
+    "coldingTime": "2",
+    "cost": "2",
+    "effect": "Weaken",
+    "probability": "100"
+  },
+  "7": {
+    "name": "纹理",
+    "description": "将自己的属性转换成和已学会的招式中第一个招式相同的属性。",
+    "power": "0",
+    "coldingTime": "3",
+    "cost": "3",
+    "effect": "Attack",
+    "probability": "0"
+  },
+  "8": {
+    "name": "自爆",
+    "description": "引发爆炸，攻击自己周围所有的宝可梦。使用后陷入濒死。",
+    "power": "200",
+    "coldingTime": "2",
+    "cost": "2",
+    "effect": "Attack",
+    "probability": "100"
+  },
+  "9": {
+    "name": "炸蛋",
+    "description": "向对手用力投掷大大的蛋进行攻击。",
+    "power": "100",
+    "coldingTime": "3",
+    "cost": "3",
+    "effect": "Attack",
+    "probability": "75"
+  },
+  "10": {
+    "name": "闪光",
+    "description": "使出耀眼光芒，从而降低对手的命中率。",
+    "power": "0",
+    "coldingTime": "2",
+    "cost": "2",
+    "effect": "Weaken",
+    "probability": "100"
+  }
+}
