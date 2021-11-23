@@ -7,6 +7,6 @@ export function calculateDamage(attacker: Pokemon, skill: Skill,  defencer: Poke
     damage *= attacker.getBattleATK()
     damage /= defencer.getBattleDEF()
     damage /= 100
-    if (attacker.get)
+    if (attacker.getFirstRace())
     return damage
 }

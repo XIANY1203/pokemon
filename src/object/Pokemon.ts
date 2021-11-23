@@ -7,6 +7,8 @@ export default class Pokemon {
     private firstRace: RaceInfo
     private secondRace: RaceInfo
     private level: number
+    private exp: number
+    private expToUpgrade
     private maxHP: number
     private maxATK: number
     private maxDEF: number
@@ -14,31 +16,49 @@ export default class Pokemon {
     private allSkillList: Skill[]
     private battleSkillList: Skill[]
 
+    private baseHP: number = 30
+    private baseATK: number = 20
+    private baseDEF: number = 15
+    private baseSP: number = 10
+    private HPIncrement = 3
+    private ATKIncrement = 2
+    private DEFIncrement = 2
+    private SPIncrement = 1
+
     private battleHP?: number
     private battleATK?: number
     private battleDEF?: number
     private battleSP?: number
     
     constructor(
-        name: string, 
-        firstrace: RaceInfo, 
-        secondRace: RaceInfo, 
-        level: number, 
-        maxHP: number, 
-        maxATK: number, 
-        maxDEF: number, 
-        maxSP: number
+        exsist: boolean,
+        name?: string, 
+        firstrace?: RaceInfo, 
+        secondRace?: RaceInfo, 
+        level?: number, 
+        maxHP?: number, maxATK?: number, maxDEF?: number, maxSP?: number,
+        baseHP?: number, baseATK?: number, baseDEF?: number, baseSP?: number,
+        HPincrement?: number, ATKIncrement?: number, DEFIncrement?: number, SPincrement?: number
         ) {
-        this.name = name
-        this.firstRace = firstrace
-        this.secondRace = secondRace
-        this.level = level
-        this.maxHP = maxHP
-        this.maxATK = maxATK
-        this.maxDEF = maxDEF
-        this.maxSP = maxSP
-        this.allSkillList = getSkills(this)
-        this.battleSkillList = new Array(4)
+        if (exsist) {
+            let data = 
+        } else {
+            this.name = name
+            this.firstRace = firstrace
+            this.secondRace = secondRace
+            this.level = level
+            this.maxHP = maxHP
+            this.maxATK = maxATK
+            this.maxDEF = maxDEF
+            this.maxSP = maxSP
+            this.allSkillList = getSkills(this)
+            this.battleSkillList = new Array(4)            
+        }
+
+    }
+
+    public upgrade() {
+        this.level
     }
 
     public onBattle() {
