@@ -1,5 +1,3 @@
-import Pokemon from "./Pokemon"
-
 export enum Effect {
     Attack = 0,
     Strengthen = 1,
@@ -61,9 +59,4 @@ export default class Skill {
     public getLockLevel() {
         return this.lockLevel
     }
-}
-
-export function getSkills(pokemon: Pokemon): Skill[] {
-    let skills = new Array()
-    return skills
 }

@@ -1,5 +1,6 @@
-import { Race } from "../object/Race"
-import Evolution from "./Evaluation"
+import { Race } from "./Race"
+import Skill from "../skill/Skill"
+import Evolution from "../../object/Evaluation"
 
 export class PokemonInfo {
     private name: string
@@ -15,6 +16,7 @@ export class PokemonInfo {
     private ATKIncrement: number
     private DEFIncrement: number
     private SPIncrement: number
+    private skills: Skill[]
 
     constructor(
         name: string,

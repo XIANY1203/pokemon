@@ -1,4 +1,4 @@
-import Pokemon from "./Pokemon"
+import Pokemon from "../../pokemon/Pokemon"
 import Team from "./Team"
 
 export default class Player {

@@ -1,4 +1,4 @@
-export var userData = {
+export var user_zyf = {
     userId: "10000001",
     username: "zyf",
     password: "DJzyf1528",

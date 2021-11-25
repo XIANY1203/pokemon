@@ -1,11 +1,7 @@
-import { assert } from "cc"
 import RaceInfo from "./Race"
-import Skill, { getSkills } from "./Skill"
 
 export default class Pokemon {
-    private name: string
-    private firstRace: RaceInfo
-    private secondRace: RaceInfo
+    private info: PokemonInfo
     private isEnemy: boolean
     private level: number
     private maxHP: number = 0
