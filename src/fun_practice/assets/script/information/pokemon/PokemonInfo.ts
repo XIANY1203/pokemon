@@ -16,7 +16,6 @@ export class PokemonInfo {
     private ATKIncrement: number
     private DEFIncrement: number
     private SPIncrement: number
-    private skills: Skill[]
 
     constructor(
         name: string,
