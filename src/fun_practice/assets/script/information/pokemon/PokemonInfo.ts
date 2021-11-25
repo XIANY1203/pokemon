@@ -16,6 +16,7 @@ export class PokemonInfo {
     private ATKIncrement: number
     private DEFIncrement: number
     private SPIncrement: number
+    private skills: Skill[]
 
     constructor(
         name: string,
@@ -58,5 +59,17 @@ export var PokemonMap: Map<string, PokemonInfo> = new Map(
         ["005", new PokemonInfo("皮卡丘", "005", Race.Electricity, Race.None, 28, 22, 12, 10, 7, 2.5, 1.8, 1.6, 0.9)],
         ["006", new PokemonInfo("雷丘", "006", Race.Electricity, Race.None, maxLevel + 1, 22, 12, 10, 7, 3, 2.1, 1.9, 1.2)],
         ["007", new PokemonInfo("超雷丘", "007", Race.Electricity, Race.Super, maxLevel + 1, 25, 17, 17, 14, 3.1, 2.2, 1.95, 1.23)],
+        ["008", new PokemonInfo("小火龙", "008", Race.Fire, Race.None, 16, 20, 12, 17, 6, 3, 1.4, 1.2, 0.4)],
+        ["009", new PokemonInfo("火恐龙", "009", Race.Fire, Race.None, 26, 20, 12, 17, 6, 3, 1.4, 1.2, 0.4)],
+        ["010", new PokemonInfo("喷火龙", "010", Race.Fire, Race.Fly, maxLevel + 1, 20, 12, 17, 6, 3, 1.6, 1.4, 0.4)],
+        ["011", new PokemonInfo("杰尼龟", "011", Race.Water, Race.None, 18, 15, 14, 12, 6, 3, 0.6, 1.2, 1.0)],
+        ["012", new PokemonInfo("卡咪龟", "012", Race.Water, Race.None, 18, 15, 14, 12, 6, 3, 0.6, 1.2, 1.0)],
+        ["013", new PokemonInfo("水箭龟", "013", Race.Water, Race.None, maxLevel + 1, 15, 14, 12, 6, 3, 0.6, 1.2, 1.0)],
+        ["014", new PokemonInfo("波波", "014", Race.Normal, Race.Fly, 10, 14, 14, 14, 6, 3, 0.6, 1.2, 1.1)],
+        ["015", new PokemonInfo("比比鸟", "015", Race.Normal, Race.Fly, 16, 14, 14, 14, 6, 3, 0.6, 1.2, 1.1)],
+        ["016", new PokemonInfo("大比鸟", "016", Race.Normal, Race.Fly, maxLevel + 1, 14, 14, 14, 6, 3, 0.6, 1.2, 1.1)],
+        ["017", new PokemonInfo("臭泥", "017", Race.Poison, Race.None, 28, 25, 17, 17, 14, 3.1, 2.2, 1.95, 1.23)],
+        ["018", new PokemonInfo("臭臭泥", "018", Race.Poison, Race.None, maxLevel + 1, 25, 17, 17, 14, 3.1, 2.2, 1.95, 1.23)],
     ]
+
 )
