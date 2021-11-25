@@ -1,0 +1,14 @@
+{
+    "皮卡丘": {
+        "firstRace": "Electricity",
+        "secondRace": "None",
+        "baseHP": 23,
+        "baseATK": 17,
+        "baseDEF": 15,
+        "baseSP": 10,
+        "HPIncrement": 3,
+        "ATKIncrement": 2,
+        "DEFIncrement": 1,
+        "SPIncrement": 1
+    }
+}
